@@ -1,0 +1,20 @@
+# If there is something other than the status online for a user Online will be subtracted
+$nomention
+$suppressErrors[Uh oh! This command may be broken/out dated, DM Riskeee (@boredolemet) using v!report and you may get a reward!]
+$color[C3B8A4]
+$author[Server Info]
+$serverInfo[
+**Owner**
+{owner} 
+
+**Server Name**
+{name}
+
+**Verification Level**
+{verificationLvl}
+
+**Members** : $membersCount
+**Online** : $membersCount[online]
+**Do not disturb** : $membersCount[dnd]
+**Idle** : $membersCount[idle]
+]
