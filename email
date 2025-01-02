@@ -1,0 +1,8 @@
+$nomention
+$allowMention
+$suppressErrors[Uh oh! This command may be broken/out dated, DM Riskeee (@boredolemet) using v!report and you may get a reward!]
+<@$mentioned[1]> You’ve Got Mail!
+$title[Message: $noMentionMessage]
+$author[From: $username ~|~ To: You]
+$footer[Please Report any Harmful or Disrespectful emails in the discord.]
+$dm[]
