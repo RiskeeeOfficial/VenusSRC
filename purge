@@ -1,0 +1,13 @@
+$suppressErrors[Uh oh! This command may be broken/out dated, DM Riskeee (@boredolemet) using v!report and you may get a reward!]
+$clear[$message] $nomention $deletecommand
+$title[**Purge**]
+$color[#C3B8A4]
+$footer[$username - $authorID]
+$footerIcon[$authorAvatar]
+$thumbnail[$authorAvatar]
+$description[**$message messages have been deleted!**]
+$addReactions[❌]
+$deleteIn[5]
+$onlyPerms[managemessages;You can't use this command.]
+$suppressErrors[Missing valid integer
+Command: v!purge (amount)]
