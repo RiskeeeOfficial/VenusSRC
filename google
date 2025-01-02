@@ -1,0 +1,15 @@
+$nomention
+$suppressErrors[Uh oh! This command may be broken/out dated, DM Riskeee (@boredolemet) using v!report and you may get a reward!]
+$color[C3B8A4]
+$footerIcon[https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Google_%22G%22_Logo.svg/2000px-Google_%22G%22_Logo.svg.png]
+$author[Google Search]
+$footer[By Google]
+$blackListIDs[1251626237445673001;You are banned fron using v!google]
+$description[Search Google for $message
+Search : $message
+Author : $username]
+$image[Create your own apiflash here: https://apiflash.com]
+# Under here is faulty code not sure if it blacklists or not
+$if[$message == [Add you blocked message here]]
+$setUserVar[BL;1;$authorID]
+$endif
