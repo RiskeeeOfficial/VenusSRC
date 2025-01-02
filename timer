@@ -1,0 +1,11 @@
+$nomention
+<@$authorID>
+$suppressErrors[Uh oh! This command may be broken/out dated, DM Riskeee (@boredolemet) using v!report and you may get a reward!]
+$title[$randomText[Ring! Ring!;Ding Dong!]]
+$description[Your timer is ringing now: $message[2] $message[3] $message[4]]
+$footerIcon[$authorAvatar]
+$footer[Requested By $username]
+$replyIn[$message[1]]
+$message[1] < 1]
+Please enter a number Greater than 0
+$endif
