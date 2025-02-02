@@ -1,7 +1,7 @@
 # VenusSRC
 
 ## Looking for a Easier way to use the source? Open your BDFD Application, Make a new bot and use this code.
-### 5mePQj5FoKqPaK9bALTPwdmgE 
+### 5mePQj5FoKqPaK9bALTPwdmgE (Currently Invalid)
 Only valid for 1 month as of 1/1/25 (Expire date 2/1/25)
 
  
