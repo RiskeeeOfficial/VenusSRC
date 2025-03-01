@@ -1,3 +1,4 @@
+$c[Really messy code]
 $setUserVar[encryptedText;$message]
 $setUserVar[encryptedText;$replaceText[$getUserVar[encryptedText];a;⏃]]
 $setUserVar[encryptedText;$replaceText[$getUserVar[encryptedText];b;⏚]]
