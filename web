@@ -1,3 +1,9 @@
+$if[$getUserVar[BL;$authorID] == $authorID]
+Blacklisted User.
+$end
+$if[$message == $c[Your blacklisted word, Not positive on if this method works]]
+$getUserVar[BL;$authorID]
+$setUserVar[BL;1;$authorID]
 $suppressErrors[Uh oh! This command may be broken/out dated, DM Riskeee (@boredolemet) using v!report and you may get a reward!]
 $title[Internet search]
 $description[Results for: [$message](https://$message)]
@@ -5,6 +11,3 @@ $footer[⚠️ Abusing this command will result in blacklist]
 $color[C3B8A4]
 $blackListIDs[1251626237445673001;You are banned fron using v!web]
 $image[Same as google]
-$if[$message == ]
-$getUserVar[BL;$authorID]
-$setUserVar[BL;1;$authorID]
