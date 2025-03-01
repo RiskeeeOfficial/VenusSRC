@@ -1,0 +1,12 @@
+$nomention
+$httpAddHeader[content-type;application/json]
+$httpPost[https://nexus.mvkproject.xyz/meta-ai;
+{
+  "userID": "$authorID",
+  "text": "$url[encode;($c[Add your context here]) User Says: $message]",
+  "lang": "English"
+}]
+
+$httpResult[result]
+
+$botTyping
